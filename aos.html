@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--
+
+  
+
+    -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .item {
+        position: relative;
+        margin: 20rem auto;
+        width: 30%;
+        height: 50vh;
+        background-color: aquamarine;
+        font-size: 3rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+        라이브러리를 사용하기 위한 가장 최적의 방법은 무엇일까요?
+        ********1. 공식문서를 면밀히 살펴본다(강의를 듣지 않고 할 수 있다 )*********
+        2. 검색해서 다른 사람들은 어떻게 사용했는지 분석하고 터득한다 ->최신글을 보는것이 좋다
+
+    -->
+    <div class="item" data-aos="fade-up">fade-up</div>
+    <div class="item" data-aos="flip-left">flip-left</div>
+    <div
+      class="item"
+      data-aos="zoom-in"
+      data-aos-offset="400"
+      data-aos-once="false"
+    >
+      zoom-in
+    </div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
+
+<!-- 오늘 가서 만든 웹사이트 라이브 러리 추가를 해보기 
+-->
